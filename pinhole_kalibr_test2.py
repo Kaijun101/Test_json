@@ -144,8 +144,8 @@ print(T_c1_c0)
 print('camera 0 in imu transformation')
 # assume IMU is in NWU frame and is mounting facing forward
 # assume the two cameras are mounted forward too. frame right-down-forward
-R_imu_c0 = sp.SO3([ [ 0, 1, 0],
-                    [-1, 0, 0],
+R_imu_c0 = sp.SO3([ [ 1, 0, 0],
+                    [0, 1, 0],
                     [ 0,0, 1]])
 t_imu_c0 = [0, 0 , 0]
 T_imu_c0 = sp.SE3(R_imu_c0.matrix(),t_imu_c0)
