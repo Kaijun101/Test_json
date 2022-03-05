@@ -81,6 +81,6 @@
         "gyro_noise_std": [0.000282, 0.000282, 0.000282],
         "accel_bias_std": [0.001, 0.001, 0.001],
         "gyro_bias_std": [0.0001, 0.0001, 0.0001],
-        "cam_time_offset_ns": 0
+        "cam_time_offset_ns": -0.00013584289175579622
     }
 }
